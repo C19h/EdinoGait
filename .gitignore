@@ -1,0 +1,16 @@
+.idea/
+ds.py
+/configs/biggait_hnu.yaml
+/configs/biggait_hnu_10-31.yaml
+/configs/cef_hnugait_light.yaml
+/configs/edinov2_cef_hnu_noprompt.yaml
+/configs/edinov2_reg_cef_casia.yaml
+/configs/edinov2_reg_cef_casia_adam.yaml
+/configs/edinov2_reg_cef_hnugait_casia.yaml
+/configs/edinov2_reg_cef_hnugait_casia_dark.yaml
+/configs/edinov2_reg_cef_hnugait_dark_cross.yaml
+/configs/edinov2_reg_cef_hnugait_light_abl.yaml
+/configs/edinov2_reg_cef_hnugait_light_abl_noprompt.yaml
+/configs/edinov2_reg_cef_hnugait_light_cross.yaml
+pretrained/
+output/
