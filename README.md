@@ -2,8 +2,6 @@
 
 This is the code for the paper **EdinoGait: Transferring Large Visual Models to Event-based Vision for Enhancing Gait Recognition** by Liaogehao Chen , Zhenjun Zhang , and Yaonan Wang.
 
-> note: torch version==1.12.0, if you use other versions, some incompatible errors may occur!
-
 If you use any of this code, please cite the following publication:
 
 > ```
