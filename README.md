@@ -2,18 +2,6 @@
 
 This is the code for the paper **EdinoGait: Transferring Large Visual Models to Event-based Vision for Enhancing Gait Recognition** by Liaogehao Chen , Zhenjun Zhang , and Yaonan Wang.
 
-If you use any of this code, please cite the following publication:
-
-> ```
-> @article{chen2025edinogait,
->     title={EdinoGait: Transferring Large Visual Models to Event-based Vision for Enhancing Gait Recognition},
->     author={Chen, Liaogehao and Zhang, Zhenjun and Wang, Yaonan},
->     journal={IEEE Transactions on Multimedia},
->     year={2025},
->     publisher={IEEE}
-> }
-> ```
-
 # Requirements
 
 For details, please see https://github.com/ShiqiYu/OpenGait/blob/master/docs/0.get_started.md
@@ -44,6 +32,18 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.launch --nproc_per_node
 
 CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.launch --nproc_per_node=4 opengait/main.py --cfgs ./configs/edinov2_reg_cef_hnugait_dark.yaml
 ```
+If you use any of code or data, please cite the following publication:
+
+> ```
+> @article{chen2025edinogait,
+>     title={EdinoGait: Transferring Large Visual Models to Event-based Vision for Enhancing Gait Recognition},
+>     author={Chen, Liaogehao and Zhang, Zhenjun and Wang, Yaonan},
+>     journal={IEEE Transactions on Multimedia},
+>     year={2025},
+>     publisher={IEEE}
+> }
+> ```
+
 
 ## Acknowledgement
 
