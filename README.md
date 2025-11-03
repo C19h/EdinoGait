@@ -26,7 +26,10 @@ For details, please see https://github.com/ShiqiYu/OpenGait/blob/master/docs/0.g
 
 # Preprocess
 
-Download the **DAVIS346-Gait** dataset and place the dataset folder into the `db/` directory. Run `python ./datasets/bboxes.py` to obtain bounding boxes. Then run `python ./datasets/preprocess.py` and `python ./datasets/to_cef.py` sequentially.
+- Download the [pre-trained model](https://drive.google.com/drive/folders/1blvrnbZP3IPNOOYhQzdz5Ml4z-vnKBb9?usp=drive_link), and place it in the `./pretrained` folder
+- Download the **DAVIS346-Gait** dataset and place the dataset into the `./db` directory. Run `python ./datasets/bboxes.py` to obtain bounding boxes. Then run `python ./datasets/preprocess.py` and `python ./datasets/to_cef.py` sequentially.
+
+
 
 # Train
 
